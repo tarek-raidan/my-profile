@@ -1,0 +1,166 @@
+/* Colors and fonts */
+
+body {
+  background: #8AAAE5;
+  color: #967E76;
+  font-family: Lato,sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+h1 {
+  color: #967E76;
+  font-family: Roboto, sans-serif;
+  font-size:  40px;
+  font-weight: 900;
+}
+
+h2 {
+  color: #B7C4CF;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weights: 500;
+}
+
+h3 {
+  color: #E2D1F9;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weights: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #E2D1F9;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  word-spacing: 40px
+}
+
+a:hover {
+  color: #8AAAE5;
+}
+
+img {
+  length: 150px;
+  width: 150px;
+  border-radius:  50%;
+}
+
+
+
+/* Custom design with class */
+
+.container {
+  width:  800px;
+  margin: 40px auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 50px;
+  box-shadow:  0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 50px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-blue {
+  background-color: #8AAAE5;
+  color: #967E76;
+  padding: 15px 20px;
+  border-radius: 4px;
+  word-spacing: 0px;
+}
+
+.btn-blue:hover {
+  background-color: #967E76;
+  color: #8AAAE5;
+  font-style: italic;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 0px;
+
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230,230,230);
+}
+
+.list-inline i:hover {
+  color: black ;
+}
+
+#introduction p {
+margin-bottom: 40px;
+}
+
+
+
+/* Media Queries */
+
+@media (max-width: 960px) {
+  .container {
+    width:  700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    background-color: white;
+    width: 300px;
+  }
+}
+
+@media (max-width: 460px) and (orientation: landscape) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 400px;
+  }
+}
+
+/* Sidebar */
+
+.sidebar {
+  position: fixed;
+  width: 175px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: white;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 20px;
+}
+
+.page-content {
+  margin-left: 200px;
+}
+
